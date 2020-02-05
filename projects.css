@@ -28,3 +28,15 @@
   transform: rotate(5deg);
   transform-origin: left top;
 }
+
+.figure-caption {
+  padding: 10px 0 0 0;
+  font-size: 75%;
+  color: #6c757d;
+}
+/* 
+.card-caption {
+  display: flex;
+  align-items: flex-end;
+  height:100%;
+} */
