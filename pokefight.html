@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pokefight.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pokemon battle</title>
+</head>
+<body>
+  <div class="fightContainer">
+    <div id="title">PokeFight!</div>
+    <div id="battlefield">
+      <div id="playerOne">
+        <select name="pokemon" id="player-1-btn">
+          <option value="select">select pokemon</option>
+          <option value="pikachu">Pikachu</option>
+          <option value="charmeleon">Charmeleon</option>
+          <option value="jigglypuff">Jiggly Puff</option>
+        </select>
+        <input id="submit-1" type="submit">
+      </div>
+      <div id="versus">VS</div>
+      <div id="fight">
+        <button id="fight">FIGHT</button>
+      </div>
+      <div id="playerTwo">
+        <select name="pokemon" id="player-2-btn">
+            <option value="select">select pokemon</option>
+            <option value="pikachu">Pikachu</option>
+            <option value="charmeleon">Charmeleon</option>
+            <option value="jigglypuff">Jiggly Puff</option>
+          </select>
+          <input id="submit-2" type="submit">
+      </div>
+    </div>
+  </div>
+  <div id=winner-div></div>
+  <script src="./pokefight.js"></script>
+</body>
+</html>
