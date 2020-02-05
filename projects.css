@@ -1,0 +1,20 @@
+.col {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  padding: 20px;
+  justify-content: space-evenly;
+}
+.project {
+  border: 1px red solid;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  justify-content: space-evenly;
+}
