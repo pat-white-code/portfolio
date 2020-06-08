@@ -3,10 +3,20 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 h1, h2, p, ul, li {
   margin-block-start: 0;
   margin-block-end: 0;
   padding-inline-start: 0;
+}
+
+h4 {
+  margin-block-start: 0.3em;
+  margin-block-end: 0.3em;
 }
 
 body {
@@ -108,6 +118,53 @@ main {
   margin: 23px;
   width: 90%;
   background-color: aliceblue;
+  transition: 150ms;
+  overflow: hidden;
+}
+
+.project-image {
+  height: 50%;
+  width: 100%;
+  /* border: 1px red solid; */
+}
+
+.clutter {
+  background-image: url('./img/clutter.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 150ms;
+}
+.beer-monkey {
+  background-image: url('./img/beer-monkey.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 150ms;
+}
+
+.my-fave {
+  background-image: url('./img/myfaves.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 150ms;
+}
+.music-dashboard {
+  background-image: url('./img/ear-buds.jpg');
+  background-size: cover;
+  transition: 150ms;
+}
+
+.project-info {
+  width: 100%;
+  height:50%;
+  /* border: 1px red solid; */
+  padding: 10px;
+}
+
+.project-container:hover .clutter {
+  transform: scale(1.05);
+}
+.project-container:hover {
+  transform: scale(1.05);
 }
 
 /* BEGIN VIDEO SECTIOn */
