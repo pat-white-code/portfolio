@@ -114,7 +114,7 @@ main {
 }
 
 .project-container {
-  height: 450px;
+  height: 500px;
   margin: 23px;
   width: 90%;
   background-color: aliceblue;
@@ -125,14 +125,14 @@ main {
 .project-image {
   height: 50%;
   width: 100%;
+  transition: 150ms;
+  background-size: cover;
   /* border: 1px red solid; */
 }
 
 .clutter {
   background-image: url('./img/clutter.jpg');
-  background-size: cover;
   background-position: bottom;
-  transition: 150ms;
 }
 .beer-monkey {
   background-image: url('./img/beer-monkey.jpg');
@@ -141,16 +141,42 @@ main {
   transition: 150ms;
 }
 
+.project-container:hover .beer-monkey {
+  transform: scale(1.05);
+}
+
 .my-fave {
   background-image: url('./img/myfaves.jpg');
   background-size: cover;
   background-position: bottom;
   transition: 150ms;
 }
+
+
+.project-container:hover .my-fave {
+  transform: scale(1.05);
+}
+
 .music-dashboard {
   background-image: url('./img/ear-buds.jpg');
   background-size: cover;
   transition: 150ms;
+}
+
+
+.project-container:hover .music-dashboard {
+  transform: scale(1.05);
+}
+
+.random-users {
+  background-image: url('./img/random-users.jpg');
+  background-size: cover;
+  background-position: top;
+  transition: 150ms;
+}
+
+.project-container:hover .random-users {
+  transform: scale(1.05);
 }
 
 .project-info {
@@ -163,6 +189,7 @@ main {
 .project-container:hover .clutter {
   transform: scale(1.05);
 }
+
 .project-container:hover {
   transform: scale(1.05);
 }
