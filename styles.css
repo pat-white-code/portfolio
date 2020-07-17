@@ -108,6 +108,7 @@ ul {
   box-shadow: 2px 2px 10px #aaa;
   margin: 20px;
   height: 200px;
+  background-color: white;
 }
 
 .quote {
@@ -260,6 +261,7 @@ main {
   flex-direction: column;
   padding: 0 50px;
   text-align: left;
+  background-color: whitesmoke;
 }
 
 .iframe-section p {
