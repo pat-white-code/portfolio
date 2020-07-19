@@ -68,7 +68,8 @@ li {
 .taking-the-plunge {
   background-image: url('./img/pat-and-sadie.jpg');
   background-size: cover;
-  background-position: center;
+  background-position-x: center;
+  background-position-y: top;
 }
 
 .a-new-beginning {
@@ -389,6 +390,11 @@ footer {
   text-align: center;
 }
 
+.whiteboard-video {
+  width: 100%;
+  margin: 30px 0;
+}
+
 
 /* BEGIN TABLET MEDIA QUERY */
 @media(min-width:768px) {
@@ -539,6 +545,10 @@ footer {
     /* overflow: hidden; */
     width: 30%;
     height: 100%;
+  }
+
+  .whiteboard-video {
+    width: 560px;
   }
 }
 
