@@ -489,6 +489,7 @@ footer {
   .story-block {
     flex-direction: row;
     height: 300px;
+    justify-content: space-between;
   }
   .iframe-section p {
     font-size: 15px;
@@ -502,7 +503,7 @@ footer {
 
   .story-img-container {
     /* overflow: hidden; */
-    width: 50%;
+    width: 30%;
     height: 100%;
   }
 }
