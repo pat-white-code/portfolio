@@ -389,6 +389,18 @@ footer {
   height: 100%;
 }
 
+.footer-social:hover img {
+  opacity: .5;
+}
+
+.footer-social a:hover > img:hover {
+  opacity: 1;
+}
+
+.img-credits {
+  text-align: center;
+}
+
 /* END FOOTER */
 
 .story-header {
@@ -517,6 +529,8 @@ footer {
 /* END YOUTUBE TABLET DESIGN */
   footer {
     flex-direction: row;
+    width: 70%;
+    margin: auto;
   }
 
   .footer-nav {
