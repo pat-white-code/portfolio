@@ -418,6 +418,7 @@ footer {
 
   ul {
     justify-content: flex-end;
+    flex-direction: row;
   }
 
   li {
@@ -564,6 +565,11 @@ footer {
     width: 28%;
     max-width: 400px;
     height: 300px;
+  }
+
+  .whiteboard-video {
+    width: 840px;
+    height: 473px;
   }
 
 }
